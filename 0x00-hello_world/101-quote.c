@@ -1,11 +1,10 @@
 #include <stdio.h>
-
 #include <unistd.h>
 
 /**
  * main - Entry point
- * 
- * Return: Always 0 (Success)
+ * code block
+ * Return: 1 on success
  */
 
 int main(void)
