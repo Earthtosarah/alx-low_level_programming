@@ -1,21 +1,21 @@
 #include "main.h"
 /**
- * times_table -prints tables
- * Return: Always 0.
- */
+* times_table -prints tables
+* Return: Always 0.
+*/
 void times_table(void)
 {
 	int a, b, c;
 
 	a = 0;
-	
+
 	while (a <= 9)
 	{
 		b = 0;
-
 		while (b <= 9)
 		{
 			c = a * b;
+
 			_putchar(',');
 			_putchar(' ');
 			if (c <= 9)
