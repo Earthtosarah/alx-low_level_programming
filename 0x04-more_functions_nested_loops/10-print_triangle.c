@@ -5,6 +5,7 @@
  * @size: an integer
  * Return: void
  */
+
 void print_triangle(int size)
 {
 	int i;
@@ -16,7 +17,7 @@ void print_triangle(int size)
 
 	if (size <= 0)
 	{
-		_putchar("\n");
+		_putchar('\n');
 	}
 	else
 	{
@@ -24,13 +25,13 @@ void print_triangle(int size)
 		{
 			for (j = 1; j <= size - i; j++)
 			{
-				_putchar(" " + '0');
+				_putchar(' ');
 			}
 			for (k = 1; k <= i; k++)
 			{
-				_putchar("#" + '0');
+				_putchar(#);
 			}
-			_putchar("\n");
+			_putchar('\n');
 		}
 	}
 }
