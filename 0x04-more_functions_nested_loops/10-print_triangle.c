@@ -10,7 +10,7 @@ void print_triangle(int size)
 	int i;
 	/* row number */
 	int j;
-	/* number of spaces before '#' symbol */
+	/* number of spaces before # symbol */
 	int k;
 	/* # */
 
@@ -24,11 +24,11 @@ void print_triangle(int size)
 		{
 			for (j = 1; j <= size - i; j++)
 			{
-				_putchar(" ");
+				_putchar(" " + '0');
 			}
 			for (k = 1; k <= i; k++)
 			{
-				_putchar("#");
+				_putchar("#" + '0');
 			}
 			_putchar("\n");
 		}
