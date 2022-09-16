@@ -4,6 +4,7 @@
  * main - prints integer from 1 - 100
  * Return: 0 on success
  */
+
 int main(void)
 {
 	int i;
@@ -33,4 +34,3 @@ int main(void)
 	}
 	return (0);
 }
-
