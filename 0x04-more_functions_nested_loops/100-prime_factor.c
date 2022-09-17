@@ -8,15 +8,16 @@
 
 int main(void)
 {
-	unsigned int long n = 612852475143, a = (int) sqrt(n);
-	while (1)
+	long i, number = 612852475143;
+
+	for (i  = 2; i <= number; i++)
 	{
-		if (n % a == 0)
+		if (number % i == 0)
 		{
-			printf("%lu \n", n / a);
-			break;
+			number = number / i;
+			i--;
 		}
-		a--;
 	}
+	printf("%lu\n", i);
 	return (0);
 }
