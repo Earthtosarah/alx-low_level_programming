@@ -5,7 +5,8 @@
  * @s: pointer
  * Return: Nothing
  */
-void print_rev(char *s);
+
+void print_rev(char *s)
 {
 	int n = 0;
 	int len = 0;
@@ -15,7 +16,9 @@ void print_rev(char *s);
 		len += 1;
 		n++;
 	}
+
 	n = n - 1;
+
 	while (n >= 0)
 	{
 		_putchar(s[n]);
