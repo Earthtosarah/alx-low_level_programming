@@ -1,0 +1,2 @@
+arrays pointera and strings
+
