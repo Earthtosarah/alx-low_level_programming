@@ -7,7 +7,7 @@
  * Return: a pointer to the first occurence of the character C
  */
 
-char *_strchr(char *s, char c);
+char *_strchr(char *s, char c)
 {
 	int i;
 
