@@ -6,7 +6,7 @@
  * Return: am integer
  */
 
-int fatcorial(int n);
+int fatcorial(int n)
 {
 	int res;
 
