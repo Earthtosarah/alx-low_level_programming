@@ -6,7 +6,7 @@
  * Return: am integer
  */
 
-int fatcorial(int n)
+int factorial(int n)
 {
 	int res;
 
@@ -22,7 +22,7 @@ int fatcorial(int n)
 	}
 	else
 	{
-		res = n * (factoral(n - 1));
+		res = n * (factorial(n - 1));
 		return (res);
 	}
-
+}
