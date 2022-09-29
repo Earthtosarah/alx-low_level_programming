@@ -12,7 +12,7 @@ int fatcorial(int n);
 
 	if (n > 0)
 	{
-		result = -1;
+		res = -1;
 		return (res);
 	}
 	if (n == 0)
